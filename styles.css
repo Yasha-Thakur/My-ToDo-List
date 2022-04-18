@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  /* height: 100vh; */
+}
+
+.wrapper {
+  height: 250px;
+  display: grid;
+  place-items: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+#input {
+  width: 300px;
+  padding: 10px 5px;
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+#add-btn {
+  padding: 12px 35px;
+  background-color: #afafaf;
+  border: none;
+  border-radius: 5px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  margin: 5px 0px 5px 0px;
+}
+
+p {
+  list-style: none;
+  width: 400px;
+  padding: 0px 10px 0px 10px;
+}
+
+.delete,
+.edit,
+.submit {
+  padding: 10px 15px;
+  background-color: #afafaf;
+  border: none;
+  border-radius: 3px;
+}
+
+.edit {
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+#edit-input {
+  width: 250px;
+  padding: 7px 5px;
+  font-size: 18px;
+  margin-right: 12px;
+}

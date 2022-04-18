@@ -61,7 +61,7 @@ list.addEventListener("click", (e) => {
             <input
             type="text"
             name="edit"
-            placeholder="Edit elements"
+            placeholder="Edit To-Do"
             id="edit-input"
             />
             <button class="submit">SUBMIT</button>`
